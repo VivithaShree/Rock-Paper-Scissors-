@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url("img2.jpg");
+    background-size: cover;
+    background-position:center ;
+    background-color: #ccc;
+    background-attachment: fixed;
+}
+
+.login-container {
+    margin-top:0%;
+    padding: 20px;
+    width: 350px;
+    background-color: rgba(163, 147, 24, 0.945);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    display: inline-block;
+}
+#head{
+    margin: 100px;
+    color: rgb(26, 25, 24);
+}
+
+h1 {
+    color: black;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+label {
+    font-size: 1.4rem;
+    color: black;
+    display: block;
+    margin: 10px 0 5px 0;
+}
+
+input,
+select {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #22d2be;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.4rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #1ba9a1;
+}

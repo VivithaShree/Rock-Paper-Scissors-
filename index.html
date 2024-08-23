@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Rock Paper Scissors</title>
+    <link rel="webpage icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLRhpTQsh9wtNfJbSOky-MJjYV9lKqo3QT6A&s" type="icon"/>
+    <link rel="stylesheet" href="st.css">
+
+</head>
+
+<body>
+    <h1 id="head">"Ready to play? Log in and let the games begin!"</h1>
+    <div class="login-container">
+        <h1>Login to Play</h1>
+        <form id="loginForm">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="nickname">Nickname</label>
+            <input type="text" id="nickname" name="nickname" required>
+
+            <label for="country">Country</label>
+            <input type="text" id="country" name="country" required>
+
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender" required>
+                <option value="" disabled selected>Select your gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <button onclick="getdetails()" type="submit"><a href="RockPaperSisccor.html"> Game</a></button>
+        </form>
+    </div>
+
+
+    <script src="index.js">
+        
+    </script>
+</body>
+
+</html>
